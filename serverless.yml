@@ -1,0 +1,11 @@
+service: export-env-bug
+
+plugins:
+  - serverless-offline
+  - serverless-export-env
+  - './mock-plugin'
+  # - serverless-lift
+
+provider:
+  name: aws
+  runtime: nodejs14.x

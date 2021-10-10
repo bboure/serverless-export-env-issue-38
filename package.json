@@ -1,0 +1,16 @@
+{
+  "name": "export-env-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-export-env": "^2.0.0",
+    "serverless-lift": "^1.9.1",
+    "serverless-offline": "^8.2.0"
+  }
+}
